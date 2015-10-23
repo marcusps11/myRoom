@@ -1,0 +1,108 @@
+/*Wrappers /main styles
+*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0 0 100px; /* bottom = footer height */
+  background-color:#E6E6E7;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 66px;
+  color: #FFF;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 28px;
+  color: #0F7255;
+}
+
+.push-container {
+  margin-top: 50px;
+}
+
+/*Navvar*/
+
+.navbar-default {
+  background-color:#0F7255;
+}
+
+/*Navbar colors*/
+.navbar-default .navbar-nav>li>a {
+  color:white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+
+ 
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color:#0F7255;
+}
+
+/*Image*/
+
+#cover {
+  width:100%;
+  max-height:500px;
+  overflow: hidden;
+}
+
+.carousel-caption {
+    top: 0px;
+    bottom: auto;
+}
+
+
+#dropdown {
+  width:300px;
+  text-align: center;
+}
+
+/*Displays /buttons etc*/
+
+#myList {
+display:block;
+}
+
+.facilities li {
+  display:block;
+  padding: 20px;
+}
+
+#roomType {
+  font-size: 28px;
+  color: #0F7255
+}
+
+#myDisplay {
+  color: #0F7255
+}
+
+.btn-success {
+  width:350px;
+  height:50px;
+}
+
+
+
+
+
+
+
+
